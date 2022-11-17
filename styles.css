@@ -1,0 +1,376 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e5fffe;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+ #navbar{
+    background-color: #e5fffe;
+ }
+.nav-item{
+    font-size: 1.5rem;
+    padding-left:50px;
+    font-weight: 700;
+}
+.navbar-brand img{
+    height: 60px;
+}
+
+@media (max-width:800px){
+    .nav-item{
+        font-size: 1.1rem;
+        padding-left:10px;
+        font-weight: 700;
+    }
+    .navbar-brand img{
+        height: 30px;
+    }
+}
+
+/* title */
+
+
+#title{
+    background-color: #e5fffe;
+    padding: 4% 3%;
+    text-align: center;
+}
+.title-hed{
+    font-weight: 700;
+}
+.title-img-wrapper img{
+    height: auto;
+    width: 100%;
+}
+.title-para{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 70%;
+    height: 50%;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.title-img-wrapper{
+    position: relative;
+}
+#title button{
+    font-size: 1.8rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    background-color: #c8f0d5;
+    border-radius: 50px;
+    padding: 2%;
+    border: solid black 4px;
+    transition: 500ms;
+}
+#title button:hover{
+    background-color:whitesmoke;
+    transform: scale(1.05);
+}
+
+/* about */
+
+#about{
+    text-align: center;
+    background-color: #e5fffe;
+    padding: 4% 0;
+    font-weight: 700;
+}
+#about h2{
+    font-weight: 700;
+}
+#about img{
+    width: 50%;
+    margin-top: 4%;
+}
+#about p{
+    text-align: start;
+    font-size:1.1rem;
+    font-weight: 700;
+    padding: 3% 7%;
+    margin:0;
+}
+
+
+/* things we do */
+
+#we-do{
+    text-align: center;
+    background-color: #e5fffe;
+    padding: 4% 0;
+}
+
+.things-inner{
+    padding: 3%;
+    border-radius: 1rem;
+    height: 100%;
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.5);
+    transition: 500ms;
+}
+#we-do p{
+    position: relative;
+    top: 10%;
+}
+#we-do h2{
+    padding-bottom:5%;
+    font-weight: 700;
+}
+.things-we-do{
+    padding: 1% 20%;
+}
+.things-skill{
+    background-color: #76cfd7;
+}
+.things-meetup{
+    background-color: #639ced;
+}
+.things-bootcamp{
+    background-color: #f6cf50;
+    font-size: 2.2rem;
+}
+.things-network{
+    background-color: #ed3a33;
+}
+.things-webinar{
+    background-color: #90bd24;
+}
+.things-support{
+    background-color: #03556a;
+}
+.things-inner:hover{
+    transform: scale(1.05);
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0);
+}
+
+
+@media (max-width: 800px){
+
+    /* title */
+
+    .title-para{
+        font-size: 0.45rem;
+        top: 0;
+    }
+    .title-hed{
+        font-size: 1rem;
+    }
+    #title button{
+        font-size: 0.8rem;
+        font-weight: 700;
+        border:solid black 3px;
+    }
+
+    /* things */
+
+
+    .things-alt{
+        padding-left: 0 !important;
+    }
+    .things-inner{
+        font-size: 0.9rem;
+        font-weight: 700;
+        padding:5%;
+    }
+    p{
+        top: 15%;
+    }
+    .things-we-do{
+        padding: 2% 15%;
+    }
+
+
+    /* projects */
+
+    .project{
+        height: 30vh !important;
+    }
+
+    .project-slide h3{
+        font-size: 1rem !important;
+    }
+    .project-slide i{
+        font-size: 2rem !important;
+    }
+
+    /* our team */
+    .team-row{
+        padding: 20px 10%;
+    }
+
+    /* about */
+    #about p{
+        font-size: 0.7rem;
+    }
+
+    /* footer */
+
+    #footer p{
+        font-size: 0.8rem !important;
+    }
+}
+
+
+/* previous projects */
+
+#Projects{
+    text-align: center;
+    background-color: #e5fffe;
+    padding: 4% 0;
+}
+
+#Projects h2{
+    font-weight: 700;
+}
+.crsl{
+    padding: 4% 15%;
+}
+.project{
+    text-align: left;
+    max-width: 100%;
+    height: 70vh ;
+    background-image: url("images/lake.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative; 
+    border-radius: 15px;
+}
+.project-slide{
+    background-color: white;
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+    top: 67%;
+    padding: 2%;
+}
+.project-slide p{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.project-slide i{
+    font-size: 3rem;
+}
+.project-slide h3{
+    font-weight: 700;
+}
+
+
+
+/* our team */
+
+#section-team{
+    background-color: #e5fffe;
+    padding: 4% 0;
+}
+
+#section-team .container{
+    padding: 0 7%;
+
+}
+#section-team h2{
+    text-align: center;
+    margin-bottom: 5%;
+    font-weight: 700;
+}
+
+.img-wrapper img{
+    height: auto;
+    width: 100%;
+    border-radius: 1rem;
+}
+.team-card{
+    background-color:#e5fffe;
+    border-radius: 0.5rem;
+    padding: 0.2rem ;
+    margin: 10% 15%;
+    box-shadow: rgb(50 50 93 / 25%) 0px 0 100px -20px,
+     rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+}
+.img-wrapper{
+    display: inline-block;
+    text-align: center;
+    /* width: 100%; */
+    /* height: 100%; */
+    padding: 1rem ;
+    /* margin-bottom: 10px; */
+}
+
+.team-name , .team-role{
+    font-weight: 700;
+    margin: 0 0 10px 6% ;
+
+}
+.team-role{
+    padding-bottom: 20px;
+}
+.team-card i{
+    font-size: 1.1rem;
+    color: black;
+    margin: 0 0 20px 8% ;
+    transition: 300ms all ease;
+}
+.team-card i:hover{
+    color: #76cfd7;
+}
+
+/* contact us */
+
+#Contact{
+    padding: 7% 18%;
+    background-color: #e5fffe;
+}
+#Contact h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+.sub-btn{
+    text-align: center;
+}
+#Contact .btn{
+    margin: 10px 0;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #03556a;
+}
+.form-control:focus {
+    border-color:#03556a !important;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(118, 207, 215, 0.7) !important;
+} 
+
+
+/* footer */
+
+#footer{
+    background-color: #e5fffe;
+    padding: 2% 0;
+    text-align: center;
+}
+
+.social-media-icons a{
+    font-size: 1.6rem;
+    margin: 20px;
+    color: #03556a;
+}
+#footer p{
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.social-media-icons a:hover{
+    color: #76cfd7;
+    transition: all ease-out 300ms;
+}
