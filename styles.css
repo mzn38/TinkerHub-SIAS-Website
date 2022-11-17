@@ -250,7 +250,7 @@ html{
         margin-bottom:10px;
     }
     .project-slide{
-        top: 58%;
+        top: 58% !important;
         
     }
     .project-slide h3{
