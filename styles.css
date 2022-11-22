@@ -37,7 +37,7 @@ html{
 
 #title{
     background-color: #e5fffe;
-    padding: 4% 3%;
+    padding: 4% 1%;
     text-align: center;
 }
 .title-hed{
@@ -74,11 +74,14 @@ html{
     background-color:whitesmoke;
     transform: scale(1.05);
 }
+.title-phone-img{
+    margin-top: 5%;
+}
 
 @media (max-width:800px) {
     .title-para{
-        font-size: 0.45rem;
-        top: 0;
+        font-size: 0.5rem;
+        top:45%;
     }
     .title-hed{
         font-size: 1rem;
@@ -87,6 +90,9 @@ html{
         font-size: 0.8rem;
         font-weight: 700;
         border:solid black 3px;
+    }
+    .title-phone-img{
+        margin-top: 20%;
     }
 }
 
@@ -151,7 +157,7 @@ html{
     font-weight: 700;
 }
 .things-we-do{
-    padding: 1% 19%;
+    padding: 1% 20%;
 }
 .things-skill{
     background-color: #76cfd7;
@@ -194,9 +200,7 @@ html{
         top: 18% !important;
     }
     .things-we-do{
-        padding: 2% 5%;
-    }
-    .things-support{
+        padding: 2% 6%;
     }
 }
 
@@ -213,7 +217,7 @@ html{
     font-weight: 700;
 }
 .crsl{
-    padding: 4% 12%;
+    padding: 4% 14%;
 }
 .project{
     text-align: left;
@@ -246,7 +250,7 @@ html{
 
 @media (max-width:800px) {
     .project{
-        height: 30vh !important;
+        height: 25vh !important;
     }
     .project-slide p{
         margin-bottom:5px;
@@ -260,6 +264,9 @@ html{
     }
     .project-slide i{
         font-size: 1.5rem !important;
+    }
+    .crsl{
+        padding: 4% 4%;
     }
 }
 
@@ -291,7 +298,7 @@ html{
     background-color:#e5fffe;
     border-radius: 0.5rem;
     padding: 0.2rem ;
-    margin: 10% 15%;
+    margin: 7% 15%;
     box-shadow: rgb(50 50 93 / 25%) 0px 0 100px -20px,
      rgb(0 0 0 / 30%) 0px 30px 60px -30px;
 }
@@ -359,7 +366,7 @@ html{
 
 #footer{
     background-color: #e5fffe;
-    padding: 2% 0;
+    padding: 4% 0;
     text-align: center;
 }
 
@@ -381,5 +388,46 @@ html{
 @media (max-width:800px) {
     #footer p{
         font-size: 0.8rem !important;
+    }
+}
+
+
+
+/* aboutus */
+
+#aboutus{
+    text-align: center;
+    background-color: #e5fffe;
+    padding-bottom: 5%;
+}
+#aboutus h1{
+    font-weight: bold;
+    margin-bottom: 11%;
+    text-align: center;
+}
+.about-img1-wrapper img{
+    height: auto;
+    width: 100%;
+    padding-top: 5%;
+}
+.coloumn-wrapper{
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-top: 15%;
+}
+.about-img2-wrapper img{
+    height: auto;
+    width: 100%;
+    padding-top: 15%;
+}
+
+@media (max-width:800px) {
+    .coloumn-wrapper p{
+        padding: 0 4%;
+    }
+    
+    .coloumn-wrapper{
+        font-size: 0.9rem;
     }
 }
