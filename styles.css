@@ -52,8 +52,8 @@ html{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 70%;
-    height: 50%;
+    /* width: 70%;
+    height: 50%; */
     font-size: 1.2rem;
     font-weight: 700;
 }
@@ -236,6 +236,7 @@ html{
     position: relative;
     top: 67%;
     padding: 2%;
+    border-radius: 15px;
 }
 .project-slide p{
     font-size: 1rem;
@@ -292,7 +293,7 @@ html{
 .img-wrapper img{
     height: auto;
     width: 100%;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
 }
 .team-card{
     background-color:#e5fffe;
@@ -338,29 +339,73 @@ html{
 /* contact us */
 
 #Contact{
-    padding: 7% 18%;
     background-color: #e5fffe;
 }
-#Contact h2{
-    text-align: center;
-    margin-bottom: 50px;
-    font-weight: 700;
+.form-area{
+    padding-top: 2%;
 }
-.sub-btn{
-    text-align: center;
+.row.single-form{
+    /* box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.5); */
+    background: #fff;
+    border-radius: 10px;
 }
-#Contact .btn{
-    margin: 10px 0;
-    font-size: 1.3rem;
-    letter-spacing: 1px;
-    color: #fff;
+.left{
     background-color: #03556a;
+    padding: 200px 93px;
+    border-radius: 10px;
+}
+.left-col{
+    background-color: #03556a;
+    border-radius: 10px;
+}
+.left h2{
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+}
+.right{
+    padding: 70px 100px;
+    position: relative;
+}
+.form-control{
+    border: 2px solid #000;
+}
+.right button{
+    border: none;
+    border-radius: 6px;
+    background: #252525;
+    width: 180px;
+    color: #fff;
+    padding: 15px 0;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.right button:hover{
+    background: #252525;
 }
 .form-control:focus {
     border-color:#03556a !important;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(118, 207, 215, 0.7) !important;
 } 
+@media(max-width:767px){
+    .left{
+        padding: 90px 15px;
+        text-align: center;
+    }
+    .left h2{
+        font-size: 25px;
+    }
+    .right{
+        padding: 25px;
+    }
+    .right button{
+        width: 150px;
+        padding: 12px 0;
 
+    }
+}
 
 /* footer */
 
