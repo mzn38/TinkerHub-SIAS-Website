@@ -184,7 +184,7 @@ html{
 }
 
 
-@media (max-width: 800px){
+@media (max-width: 920px){
 
     /* things */
 
@@ -210,37 +210,32 @@ html{
 #Projects{
     text-align: center;
     background-color: #e5fffe;
-    padding: 4% 0;
+    padding: 4% 0%;
+    font-weight: 700;
+}
+.c-item{
+    height: 500px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
 }
 
 #Projects h2{
     font-weight: 700;
 }
-.crsl{
-    padding: 4% 14%;
-}
-.project{
-    text-align: left;
-    max-width: 100%;
-    height: 70vh ;
-    background-image: url("images/lake.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative; 
-    border-radius: 15px;
-}
 .project-slide{
-    background-color: white;
-    width: 75%;
+    text-align: left;
+    background-color: #fff;
+    width: 100%;
     margin: 0 auto;
-    position: relative;
-    top: 67%;
     padding: 2%;
-    border-radius: 15px;
+    border-radius: 12px;
 }
 .project-slide p{
     font-size: 1rem;
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 .project-slide i{
     font-size: 3rem;
@@ -249,25 +244,22 @@ html{
     font-weight: 700;
 }
 
-@media (max-width:800px) {
-    .project{
-        height: 25vh !important;
+@media (max-width:820px) {
+    .project-slide p{
+        font-size: 0.7rem;
+        /* font-weight: 700; */
     }
     .project-slide p{
-        margin-bottom:5px;
-    }
-    .project-slide{
-        top: 55%;
-        
+        margin-bottom:0;
     }
     .project-slide h3{
-        font-size: 0.9rem !important;
+        font-size: 0.7rem ;
     }
     .project-slide i{
-        font-size: 1.5rem !important;
+        font-size: 1.5rem;
     }
-    .crsl{
-        padding: 4% 4%;
+    .c-item{
+        height: 100%;
     }
 }
 
@@ -441,7 +433,7 @@ html{
 /* aboutus */
 
 #aboutus{
-    text-align: center;
+    /* text-align: center; */
     background-color: #e5fffe;
     padding-bottom: 5%;
 }
@@ -475,4 +467,26 @@ html{
     .coloumn-wrapper{
         font-size: 0.9rem;
     }
+}
+
+/* previous projects page */
+#prj-main-body{
+    text-align: center;
+    padding: 3%;
+    background-color: #e5fffe;
+}
+#prj-main-body img{
+    /* height: 500px; */
+    padding: 3% 7%;
+}
+#prj-main-body h1,p{
+    font-weight: 700;
+}
+.vertical-align {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.prj-description{
+    font-size: 1.5vw;
 }
