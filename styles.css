@@ -3,6 +3,7 @@ body{
     padding: 0;
     background-color: #e5fffe;
     box-sizing: border-box;
+    font-size: 16px;
 }
 html{
     scroll-behavior: smooth;
@@ -474,13 +475,15 @@ html{
     text-align: center;
     padding: 3%;
     background-color: #e5fffe;
+    padding-bottom: 220px;
 }
 #prj-main-body img{
     /* height: 500px; */
     padding: 3% 7%;
 }
-#prj-main-body h1,p{
+#prj-main-body h1{
     font-weight: 700;
+    padding-bottom: 3%;
 }
 .vertical-align {
     display: flex;
@@ -488,5 +491,18 @@ html{
     text-align: left;
 }
 .prj-description{
-    font-size: 1.5vw;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.prj-row{
+    padding-top: 2%;
+}
+@media (max-width:800px){
+    .prj-description{
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    .prj-row{
+        padding-top: 0;
+    }
 }
